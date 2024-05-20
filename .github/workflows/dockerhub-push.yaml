@@ -34,4 +34,4 @@ jobs:
         with:
           context: ./web
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/cis-reservation:0.0.1
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/cis4resv:0.0.1
